@@ -7,7 +7,7 @@ Install
 
 Either use the `Node-RED Menu - Manage Palette - Install`, or run the following command in your Node-RED user directory - typically `~/.node-red`
 
-    npm i node-red-node-mysql
+    npm i node-red-node-mysql-dynamic
 
 
 Usage
