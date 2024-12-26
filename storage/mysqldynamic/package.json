@@ -1,0 +1,33 @@
+{
+    "name": "node-red-node-mysql-dynamic",
+    "version": "2.0.0",
+    "description": "A Node-RED node to read and write to a MySQL database",
+    "dependencies": {
+        "mysql2": "^3.6.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mukambi/node-red-nodes.git",
+        "directory": "tree/master/storage/mysqldynamic"
+    },
+    "license": "Apache-2.0",
+    "keywords": [
+        "node-red",
+        "mysql",
+        "mysql dynamic"
+    ],
+    "node-red": {
+        "version": ">=3.0.0",
+        "nodes": {
+            "mysql": "68-mysql.js"
+        }
+    },
+    "author": {
+        "name": "mukambi paul",
+        "email": "mukambi@gmail.com",
+        "url": "http://nodered.org"
+    },
+    "engines": {
+        "node": ">=16"
+    }
+}
